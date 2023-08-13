@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.heading{
+    background-color: black;
+    padding: 10px;
+    color: white;
+    font-size: 35px;
+    display: flex;
+    justify-content: center; 
+    font-family: 'Calibri';
+    font-weight: bolder;
+}
+
+.background{
+    background-color: #efefef; 
+}
+.screenshot{
+    width: 350px;
+    display: flex;
+}
+.showtext{
+    width: 400px;
+    color: rgb(19, 2, 252);
+    font-family: calibri;
+    font-size:20px ;
+    font-weight: bold;
+}
+.steps{
+    align-items: center;
+    display:flex ;
+    flex-direction: column;
+}
+.container-steps{
+    margin: 5px;
+    padding: 10px;
+    width: fit-content;
+    box-shadow: rgb(39, 239, 3) 0px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+}
+.digit{
+    background-color: #5901f0;
+    border-radius: 50px;
+    color: white;
+    padding: 10px;
+    font-weight: bolder;
+    font-family: calibri;
+    font-size:25px ;
+}
+.todo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.icon{
+    width: 50px;
+}
+.text-footer{
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    font-family: calibri;
+}
+.dev{
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+    font-size: 17px;
+    color: #5901f0;
+    padding: 10px;
+    font-family:Calibri;
+}
+
+@media only screen and (max-width: 400px) {
+    .heading{
+        font-size: 22px;
+    }
+    .digit{
+        font-size: 18px;
+    }
+    .screenshot{
+        width: 300px;
+    }
+    .showtext{
+        font-size: 17px;
+        width: 80%;
+    }
+    .container-steps{
+        width: 85%;
+    }
+    .icon{
+        width: 40px;
+    }
+  }
